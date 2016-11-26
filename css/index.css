@@ -1,0 +1,760 @@
+/*尾部*/
+.remain-bottom-center .img2{
+	position: absolute;
+	right: 240px;
+	bottom:0;
+}
+a{
+	color:inherit;
+}
+/*轮播*/
+	.box{
+		width:1260px;
+		height:520px;
+		position:relative;
+		overflow:hidden;
+		margin:0 auto;
+	}
+	#ball{
+		width:6300px;
+		overflow:hidden;
+		position:absolute;
+		left:0;
+		top:0;
+	}
+	#ball li{
+		float:left;
+		width:1260px;
+		height:520px;
+	}
+	#ball img{
+		width:100%;
+		height:100%;
+		border:0;
+		display:block;
+	}
+	#btns{
+		position:absolute;
+		width:120px;
+		overflow:hidden;
+		left:570px;
+		bottom:20px;
+		z-index:10;
+	}
+	#btns li{
+		float:left;
+		width:13px;
+		height:13px;
+		border-radius:50%;
+		margin-right:5px;
+		background:#ff0033;
+		border:1px solid #cccccc;
+		opacity:0.3;
+	}
+	#btns .bingo{
+		opacity:1;
+	}
+	.box>a{
+		position:absolute;
+		display:block;
+		width:auto;
+		font-size:20px;
+		padding:10px;
+		color:#ffffff;
+		background:rgba(0,0,0,0.5);
+		font-family:"黑体";
+		text-decoration:none;
+		top:180px;
+		display:none;
+	}
+	#prev{
+		left:0;
+	}
+	#next{
+		right:0;
+	}
+
+/*轮播下面的内容*/
+.center{
+	width:100%;
+}
+.center-content{
+	width:1210px;
+	min-height:300px;
+	height:auto !important;
+	height:300px;
+	margin:0 auto;
+	overflow: hidden;
+}
+/*五张大图*/
+.center-title{
+	width:1210px;
+	overflow: hidden;
+	margin:0 auto;
+}
+.cent-cont-title1{
+	margin:40px 0 28px 0;
+}
+.cent-cont-list{
+	width:1220px;
+}
+.cent-cont-list li{
+	float:left;
+	margin-right: 10px;
+	position: relative;
+	background:#eee;
+}
+.cent-cont-list .bgpic{
+	width:234px;
+	height:329px;	
+}
+.cent-cont-list .brand-ship{
+	position: absolute;
+	bottom: 1px;
+	left:30px;
+	width:174px;
+	height:154px;
+	overflow: hidden;
+	z-index: 1;
+}
+.brand-ship .brand-hide{
+	background: #fff;
+	width:106px;
+	height:154px;
+	position: absolute;
+	padding:0 34px;
+	top:100px;
+}
+.brand-hide .bdlogopic{
+	display: block;
+	width:60px;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom: 3px;
+}
+.brand-hide .udline{
+	height:30px;
+	line-height: 0px;
+	text-align: center;
+}
+.brand-hide .udline .blackbar{
+	display: inline-block;
+	width:20px;
+	height: 2px;
+	background: #000;
+}
+.brand-hide .enbrand,.chnbrand{
+	font-size:14px;
+	text-align: center;
+	color: #000;
+}
+
+/*14张小图*/
+.center-hot{
+	width: 100%;
+}
+.cent-cont-title2 img{
+	float: left;
+}
+.cent-cont-title2 .hotbtn{
+	float:right;
+	padding-top: 23px;
+	padding-right: 15px;
+}
+.hot-prev{
+	display: inline-block;
+	width:8px;
+	height: 15px;
+	background: url(../img/share02.png) no-repeat -160px -384px; 
+}
+.hot-next{
+	display: inline-block;
+	width:8px;
+	height: 15px;
+	background: url(../img/share02.png) no-repeat -180px -384px;
+	margin-left: 20px;
+}
+.cent-cont-hot{
+	width:3660px;
+	position: absolute;
+	overflow: hidden;
+	top:0;
+}
+.hotflag{
+	width:1210px;
+	height:180px;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.hotflag li{
+	width:1220px;
+	overflow: hidden;
+	float:left;
+}
+.hotflag li .hotflagson{
+	position: relative;
+	float: left;
+	width: 107px;
+	height: 55px;
+	padding: 14px 29px;
+	border: 1px solid #dfdfdf;
+	margin-right: 6px;
+	margin-bottom: 7px;
+}
+.cent-cont-hot .hotflagson img{
+	display: block;
+	width:107px;
+	height:54px;
+}
+.hotflagson .hotmiddle{
+	position: absolute;
+	left:29px;
+	top:14px;
+	opacity:0;
+	width:107px;
+	height:42px;
+	padding-top: 12px;
+	background: #fff;
+}
+.hotmiddle .brandchnname{
+	font-size:18px;
+	text-align: center;
+}
+.hotmiddle:hover .brandchnname{
+	color:#b28247;
+}
+.hotmiddle .blacksline{
+	text-align: center;
+	margin-top: -10px;
+}
+.hotmiddle .blacksline span{
+	display: inline-block;
+	width: 20px;
+	height: 2px;
+	background: #000;
+}
+.hotflagson .topline{
+	width:0px;
+	height:1px;
+	position: absolute;
+	top:-1px;
+	left:0;
+	background: #000;
+}
+.hotflagson .rightline{
+	width:1px;
+	height:0px;
+	position: absolute;
+	bottom: -1px;
+	right:-1px;
+	background:#000;
+}
+.hotflagson .bottomline{
+	width:0px;
+	height:1px;
+	position: absolute;
+	bottom: -1px;
+	right:0;
+	background:#000;
+}
+.hotflagson .leftline{
+	width:1px;
+	height:0;
+	position: absolute;
+	top:-1px;
+	left:-1px;
+	background: #000;
+}
+/*商场同款*/
+.center-same{
+	width:1210px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.cent-cont-title3{
+	width:1210px;
+	margin:0 auto;
+}
+.cent-cont-title3 img{
+	display: block;
+	border:0;
+}
+.same-link{
+	overflow: hidden;
+	margin-bottom: 15px;
+	width:1220px;
+}
+.same-link li{
+	float: left;
+	width:398px;
+	height:30px;
+	background:#999;
+	color:#fff;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	margin-right:8px;
+}
+.storesame{
+	overflow: hidden;
+	width:100%;
+	height:517px;
+	position: relative;
+}
+.storesame .same-box{
+	position: absolute;
+	left:0;
+	width:4000px;
+}
+.storesame .same-box li{
+	overflow: hidden;
+	float:left;
+}
+.same-box li .same-left{
+	float:left;
+}
+.same-box li .same-right{
+	float:left;
+	margin-left: 9px;
+}
+.same-right .same-top{
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+.same-right .same-top .same-top1{
+	width: 222px;
+	height: 248px;
+	text-align: center;
+	border:1px solid #ccc;
+	overflow: hidden;
+	float: left;
+	margin-right:7px; 
+}
+.same-top .same-top1 .same-topic{
+	font-size: 13px;
+	color: #666;
+	display: inline-block;
+	position: relative;
+}
+.same-top .same-top1 .same-topic .enbrand{
+	color:#000;
+}
+.same-top1 .same-pic{
+	text-align: center;
+	position: relative;
+	left: 0;
+}
+.same-top1 .same-pic img{
+	width:150px;
+	float: none;
+	display: block;
+	border:0;
+	margin:0 auto;
+	position: relative;
+}
+.same-top .same-top2{
+	overflow: hidden;
+	border: 1px solid #ccc;
+	text-align: center;
+	width:367px;
+	height:248px;
+	float: left;
+	margin-right: 7px;
+}
+.same-top .same-top2{
+	float: left;
+}
+.same-top .same-top2 .same-topic{
+	float:left;
+	font-size:13px;
+	margin:20px 0 0 70px;
+	color: #666;
+	display: inline-block;
+	position: relative;
+}
+.same-top .same-top2 .same-topic .enbrand{
+	color:#000;
+}
+.same-top .same-top2 .same-pic{
+	float:left;
+	position: relative;
+	left:0;
+	margin-top: 28px;
+}
+.same-top2 .same-pic img{
+	width:180px;
+	float: none;
+	display: block;
+	border:0;
+	margin:0 auto;
+	position: relative;
+}
+.same-right .same-bottom{
+	overflow: hidden;
+}
+.same-bottom .bottom1{
+	margin-right: 7px;
+	border:1px solid #ccc;
+	float: left;
+	width:271px;
+	height:255px;
+	overflow: hidden;
+}
+.bottom1 .same-topic{
+	text-align:center;
+	position: relative; 
+}
+.bottom1 .same-pic{
+	text-align: center;
+	position: relative;
+	left:0;
+}
+.bottom1 .same-pic img{
+	width:150px;
+	float: none;
+	display: block;
+	border:0;
+	margin:0 auto;
+	position: relative;
+}
+.darwin-col{
+	width:406px;
+	display: inline-block;
+	height: 520px;
+	overflow: hidden;
+	position: relative;
+	margin-right: 5px;
+}
+.darwin-col1 dl dd{
+	width:100%;
+}
+.darwin-col1 dl dd,.darwin-col1 dl dt{
+	width:406px;
+	display: block;
+	height: 520px;
+	overflow: hidden;
+}
+.darwin-col1 dl dt{
+	position: absolute;
+	display: none;
+	left: 0;
+	top:0;
+	background:url(../img/darwin_mask_bg.png);
+}
+.darwin-col1 dl dt ul{
+	display: block;
+	width:260px;
+	height:120px;
+	padding-top:20px;
+	margin:190px auto;
+	font-size: 18px;
+	border:1px solid #fff;
+	cursor:pointer;
+}
+.darwin-col1 dl dt ul li{
+	display: block;
+	width:100%;
+	text-align: center;
+	line-height: 28px;
+	color: #fff;
+}
+.darwin-col1 dl dt ul li b{
+	display: block;
+	width: 18px;
+	height: 3px;
+	background-color: #fff;
+	margin:10px auto;
+}
+.fsize14{
+	font-size: 14px;
+}
+.darwin-col2{
+	clear:both;
+	float: none;
+	padding-bottom: 10px;
+	position: relative;
+}
+.darwin-col2 dl dd{
+	width:100%;
+}
+.darwin-col2 dl dd,.darwin-col2 dl dt{
+	width:398px;
+	height:256px;
+	display: block;
+	overflow: hidden;
+}
+.darwin-col2 dl dt{
+	display: none;
+	position: absolute;
+	top:0;
+	left: 0;
+	background: url(../img/darwin_mask_bg.png);
+}
+.darwin-col2 dl dt ul{
+	display: block;
+	width:260px;
+	height: 120px;
+	padding-top: 20px;
+	margin:40px auto;
+	font-size: 18px;
+	border:1px solid #fff;
+	cursor: pointer;
+}
+.darwin-col2 dl dt ul li{
+	width:100%;
+	display: block;
+	text-align: center;
+	line-height: 28px;
+	color: #fff;
+}
+.darwin-col2 dl dt ul li b{
+	width:18px;
+	height:3px;
+	display: block;
+	background-color:#fff;
+	margin:10px auto; 
+}
+/*购物中心*/
+.shopcenter{
+	width:1210px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.shopcenter img{
+	width:100%;
+	height:100%;
+}
+.shopcenter .spcenter{
+	width:1220px;
+}
+.shopcenter .spcenter li{
+	float: left;
+	width:234px;
+	height:50px;
+	overflow: hidden;
+	position: relative;
+	margin-right: 10px;
+}
+.shopcenter .spcenter li .spcenterbox{
+	position: absolute;
+	top:0;
+	left:0;	
+	width:234px;
+	height:100px;
+}
+.spcenterbox .top{
+	width: 234px;
+	height: 50px;
+	line-height: 50px;
+	background: #999;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.spcenterbox .bottom{
+	width: 234px;
+	height: 40px;
+	padding: 5px;
+	background: #333;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+.spcenterbox .bottom .border{
+	border: 1px solid #fff;
+	width: 223px;
+	height: 40px;
+}
+.spcenterbox .bottom .border .en{
+	margin-top: 10px;
+}
+.spcenterbox a{
+	display: block;
+}
+.centers{
+	width:1210px;
+	margin:0 auto;
+}
+.centers .goodstitle{
+	width:100%;
+	overflow: hidden;
+}
+.goodstitle .txt{
+	float: left;
+}
+.goodstitle .rightbtn{
+	float: right;
+	overflow: hidden;
+	height: 60px;
+	line-height: 60px;
+}
+.goodstitle .rightbtn .icon{
+	float:right;
+	background:url(../img/share02.png) no-repeat -470px -360px;
+	width:18px;
+	height:60px;
+	margin-left: 6px;
+}
+.goodstitle .rightbtn .morenext{
+	float: right;
+	font-size: 16px;
+}
+.goodstitle .rightbtn a:hover{
+	color:#b28247;
+} 
+.goods{
+	overflow: hidden;
+}
+.goods .goods1{
+	float: left;
+	width: 220px;
+	height: 366px;
+	border: 1px solid #ccc;
+	padding: 0 9px;
+	padding-top: 4px;
+	margin-right: 8px;
+}
+.goods1 .goodslinks {
+    overflow: hidden;
+    border-bottom: 1px dashed #d4d4d4;
+    padding-bottom: 16px;
+}
+.goodslinks li {
+    float: left;
+    line-height: 36px;
+    width: 110px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+}
+.goodslinks li a:hover{
+	color:#b28247;
+}
+.goods .goods2 {
+    float: left;
+    width: 390px;
+    height: 370px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-right: 8px;
+}
+.bx-wrapper {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+.goods3 {
+    overflow: hidden;
+    height: 372px;
+}
+/*主题活动*/
+.promotion{
+	width:1220px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.promotion img{
+	width: 100%;
+	height:100%;
+	display: block;
+}
+.promotion a{
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height:100%;
+}
+.promotion .promotion1,.promotion .promotion2{
+	width:100%;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.promotion1 .propic,.promotion2 .propic{
+	float: left;
+} 
+.promotion1 .propic1,.promotion2 .propic1{
+	width:598px;
+	height: 295px;
+	padding-right:12px;
+}
+.promotion1 .propic2,.promotion2 .propic2{
+	width:293px;
+	height:295px;
+	padding-right:12px;
+
+}
+.promotion3{
+	width:100%;
+	overflow: hidden;
+}
+.promotion3 .proleft{
+	float: left;
+	overflow: hidden;
+	width: 610px;
+}
+.proleft .proleftpic{
+	float: left;
+	width: 203px;
+	height: 73px;
+}
+.proleftpic .proleftbox{
+	width:192px;
+	height: 63px;
+	border:1px solid #ccc;
+	position: relative;
+}
+.proleft .proleftpic img{
+	display: block;
+}
+.proleftbox .topline{
+	position: absolute;
+	top:-1px;
+	left: -1px;
+	width: 0;
+	height: 1px;
+	background: #000;
+}
+.proleftbox .rightline{
+	position: absolute;
+	bottom: 0;
+	right: -1px;
+	width: 1px;
+	height: 0;
+	background: #000;
+}
+.proleftbox .bottomline{
+	position: absolute;
+	bottom: -1px;
+	right: 0;
+	width: 0;
+	height: 1px;
+	background: #000;
+}
+.proleftbox .leftline{
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 1px;
+	height: 0;
+	background: #000;
+}
+.proright{
+	float:left;
+	position: relative;
+	width:600px;
+	height:138px;
+}
+.proright a{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	position: absolute;
+	top:0;
+	left:0;
+	display: none;
+}
+.proright .active{
+	display: block;	
+}

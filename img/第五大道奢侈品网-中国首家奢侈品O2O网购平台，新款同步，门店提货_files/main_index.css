@@ -1,0 +1,941 @@
+.mainin_bannerbox{
+    position: relative;
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+}
+.mainin_banner{
+    position: absolute;
+    left: 50%;
+    width: 1920px;
+    margin-left: -960px;
+}
+.mainin_banner .bx-wrapper .bx-prev{
+    left: 320px;
+    background: url(/vendor/images/v30/templateleft.png) no-repeat  center!important;
+}
+.mainin_banner .bx-wrapper .bx-next{
+    right: 320px;
+    background: url(/vendor/images/v30/templateright.png) no-repeat  center!important;
+}
+.mainin_banner .bx-wrapper .bx-controls-direction a{
+    width: 29px!important;
+    height: 49px!important;
+    margin-top: -25px!important;
+    opacity: 0;
+}
+.mainx_main{
+    width: 1210px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.mainx_main .brandship_title{
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+.mainx_main .brandship_list{
+    overflow: hidden;
+}
+.mainx_main .brandship_list li{
+    float: left;
+    position: relative;
+    margin-right: 10px;
+}
+.mainx_main .brandship_list li img{
+    display: block;
+}
+.brandship_list .bgpic{
+    width: 234px;
+    height: 329px;
+}
+.brandship_list .brandship_tbox{
+    position: absolute;
+    bottom: 1px;
+    left: 30px;
+    width: 174px;
+    height: 154px;
+    overflow: hidden;
+    z-index: 1;
+}
+.brandship_tbox .brand_hide{
+    background: #fff;
+    width: 106px;
+    height: 154px;
+    position: absolute;
+    top: 100px;
+    padding: 0 34px 0 34px;
+}
+.brand_hide .brandlogopic{
+    /*width: 107px;
+    height: 54px;*/
+
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.brand_hide .enbrand{
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+}
+.brand_hide .chnbrand{
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+}
+.brand_hide .splitline{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.brand_hide .splitline .blackbar{
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: #000;
+}
+.mainx_main .hotstore_title{
+    overflow: hidden;
+}
+.hotstore_title img{
+    float: left;
+}
+.hotstore_title .hotarrowbtn{
+    float: right;
+    padding-top: 23px;
+    padding-right: 15px;
+}
+.hotstore_title .hotarrowbtn span{
+    display: inline-block;
+    width: 8px;
+    height: 15px;
+}
+.hotarrowbtn .hot_pre{
+    background: url(/vendor/images/v30/share02.png) no-repeat -160px -384px;
+}
+.hotarrowbtn .hot_next{
+    background: url(/vendor/images/v30/share02.png) no-repeat -180px -384px;
+    margin-left: 20px;
+}
+.mainx_main .hotflag{
+    height: 180px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.hotflag .hotflagbox{
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+}
+.hotflag .hotflagbox li{
+    float: left;
+    width: 1210px;
+}
+.hotflagbox .hotflagson{
+    position: relative;
+    float :left;
+    width: 107px;
+    height: 55px;
+    padding: 14px 29px;
+    border: 1px solid #dfdfdf;
+    margin-right: 6px;
+    margin-bottom: 7px;
+}
+.hotflagson img{
+    width: 107px;
+    height: 54px;
+}
+.hotflagbox .hotflagson .hotmiddle{
+    position: absolute;
+    left: 29px;
+    top: 14px;
+    opacity: 0;
+    width:  107px;
+    height: 42px;
+    padding-top: 12px;
+    background: #fff;
+}
+.hotmiddle .brandchnname{
+    font-size: 18px;
+    text-align: center;
+}
+.hotmiddle .blacksline{
+    text-align: center;
+    margin-top: 5px;
+}
+.hotmiddle .blacksline span{
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: #000;
+}
+.hotflagbox .hotflagson img{
+    display: block;
+}
+.hotflagbox .hotflagson .topline{
+    width: 0;
+    height: 1px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    background: #000;
+}
+.hotflagbox .hotflagson .rightline{
+    width: 1px;
+    height: 0;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    background: #000;
+}
+.hotflagbox .hotflagson .bottomline{
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    background: #000;
+}
+.hotflagbox .hotflagson .leftline{
+    width: 1px;
+    height: 0;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: #000;
+}
+.storesame_title img{
+    display: block;
+}
+.storesame_link{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.storesame_link li{
+    float: left;
+    width: 398px;
+    height: 30px;
+    background: #999;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 8px;
+}
+.storesame{
+    overflow: hidden;
+    width: 100%;
+    height: 517px;
+    position: relative;
+}
+.storesame .storesame_box{
+    position: absolute;
+    left:0;
+    width: 9999px;
+}
+.storesame_box li{
+    overflow: hidden;
+    float: left;
+}
+.storesame_box li .storesameb_left{
+    float: left;
+}
+.storesame_box li .storesameb_right{
+    float: left;
+    margin-left: 9px;
+}
+.storesameb_right .storesameb_top{
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.storesameb_right .storesameb_top .storesame_top1{
+    width: 222px;
+    height: 248px;
+    text-align: center;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    float: left;
+}
+.storesameb_top .storesame_top1 .storesametoptxt{
+    left: 0;
+    font-size: 13px;
+    color: #666;
+    display: inline-block;
+    position: relative;
+}
+.storesameb_top .storesame_top1 .storesametoptxt .enbrand{
+    color: #000;
+}
+.storesame_top1 .storesametoppic{
+    text-align: center;
+    position: relative;
+    right: 0;
+}
+.storesameb_top .storesame_top2{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 367px;
+    height: 248px;
+    float: left;
+    margin-right: 7px;
+}
+.storesameb_top .storesame_top2 .storesametoptxt{
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 70px;
+    color: #666;
+    display: inline-block;
+    position: relative;
+}
+.storesameb_top .storesame_top2 .storesametoptxt .enbrand{
+    color: #000;
+}
+.storesameb_top .storesame_top2 .storesametoptxt{
+    float: left;
+}
+.storesameb_top .storesame_top2 .storesametoppic{
+    float: left;
+    position: relative;
+}
+.storesameb_right .storesameb_bottom{
+    overflow: hidden;
+}
+.storesameb_bottom .storesamebottom1{
+    margin-right: 7px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 271px;
+    height: 255px;
+    overflow: hidden;
+}
+.storesamebottom1 .storesametoptxt{
+    text-align: center;
+    position: relative;
+}
+.storesamebottom1 .storesametoppic{
+    text-align: center;
+    position: relative;
+}
+.flashbuy_title img{
+    display: block;
+}
+.flashbuy{
+    overflow: hidden;
+}
+.flashbuy .flashbuy1{
+    float: left;
+    width: 238px;
+    height: 331px;
+    text-align: center;
+    padding-top: 28px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 20px;
+}
+.flashbuy1 .timeicon{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(/vendor/images/v30/share02.png) no-repeat -204px -387px;
+    
+}
+.flashbuy1 .flashbuy1pic{
+    margin-top: 17px;
+}
+.flashbuy1 .discount{
+    margin-top: 20px;
+}
+.flashbuy1 .discount span{
+    display: inline-block;
+    width: 65px;
+    height: 20px;
+    background: #d00000;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+}
+.flashbuy .flashbuy2{
+    float: left;
+    border: 1px solid #ccc;
+    width: 606px;
+    height: 359px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.flashbuy2 img{
+    display: block;
+}
+.flashbuy2 .mask{
+    background: #000;
+    width: 100%;
+    height: 30px;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.flashbuy2 .txt{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.flashbuy2 .txt .timeicon{
+    display: inline-block;
+    float: right;
+    width: 14px;
+    height: 30px;
+    background: url(/vendor/images/v30/share02.png) no-repeat -225px -377px;
+    margin-right: 5px;
+}
+.flashbuy2 .txt .time{
+    float: right;
+    margin-right: 20px;
+}
+.flashbuy .flashbuy3{
+    float: left; 
+}
+.flashbuy3 .flashbuy3pic{
+    border: 1px solid #ccc;
+    position: relative;
+}
+.flashbuy3 .title1{
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.flashbuy3 .title2{
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.flashbuy3 .title1 .txt{
+    float: right;
+}
+.flashbuy3 .title1 .arrow{
+    float: right;
+    width: 18px;
+    height: 28px;
+    background: url(/vendor/images/v30/share02.png) no-repeat -470px -376px;
+}
+.flashbuy3 .title2 .txt{
+    float: right;
+}
+.flashbuy3 .title2 .arrow{
+    float: right;
+    width: 18px;
+    height: 38px;
+    background: url(/vendor/images/v30/share02.png) no-repeat -470px -370px;
+}
+.flashpic{
+    margin-top: 20px;
+}
+.flashpic img{
+    display: block;
+}
+.shopcenter{
+    width: 100%;
+    overflow: hidden;
+}
+.shopcenter li{
+    float: left;
+    width: 234px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 8px;
+}
+.shopcenter li .shopcenterbox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 234px;
+    height: 100px;
+}
+.shopcenterbox .topbox{
+    width: 234px;
+    height: 50px;
+    line-height: 50px;
+    background: #999;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.shopcenterbox .bottombox{
+    width: 234px;
+    height: 40px;
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.shopcenterbox .bottombox .border{
+    border: 1px solid #fff;
+    width: 223px;
+    height: 40px;
+}
+.shopcenterbox .bottombox .border .line{
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+}
+.shopcenterbox .bottombox .border .en{
+    margin-top: 10px;
+}
+.goodstitle{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.goodstitle .txt{
+    float: left;
+}
+.goodstitle .rightbtn{
+    float: right;
+    overflow: hidden;
+    height: 60px;
+    line-height: 60px;
+}
+.goodstitle .rightbtn .icon{
+    float: right;
+    background: url(/vendor/images/v30/share02.png) no-repeat -470px -360px;
+    width: 18px;
+    height: 60px;
+    margin-left: 6px;
+}
+.goodstitle .rightbtn .moretxt{
+    float: right;
+    font-size: 16px;
+}
+.goods{
+    overflow: hidden;
+}
+.goods .goods1{
+    float: left;
+    width: 220px;
+    height: 366px;
+    border: 1px solid #ccc;
+    padding: 0 9px;
+    padding-top: 4px;
+    margin-right: 8px;
+}
+.goods1 .goodslinks{
+    overflow: hidden;
+    border-bottom: 1px dashed #d4d4d4;
+    padding-bottom: 16px;
+}
+.goodslinks li{
+    float: left;
+    line-height: 36px;
+    width: 110px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+}
+.goods1 .slider{
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    margin-top: 14px;
+}
+
+.slider .sliderbox li{
+    width: 224px!important;
+    height: 114px;
+    overflow: hidden;
+}
+.slider .sliderbox li img{
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.slider .bx-wrapper .bx-controls-direction a{
+    width: 8px!important;
+    height: 14px!important;
+    top: 122%!important;
+}
+.slider .bx-wrapper .bx-prev{
+    left: 70px!important;
+    background: url(/vendor/images/v30/share02.png) no-repeat -239px -384px!important;
+}
+.slider .bx-wrapper .bx-next{
+    right: 70px!important;
+    background: url(/vendor/images/v30/share02.png) no-repeat -267px -384px!important;
+}
+.goods .goods2{
+    float: left;
+    width: 390px;
+    height: 370px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-right: 8px;
+}
+.goods2 img{
+    display: block;
+}
+.goods2 .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+    bottom: 0!important;
+}
+.goods2 .bx-wrapper .bx-controls-direction a{
+    width: 30px!important;
+    height: 60px!important;
+    margin-top: -30px!important;
+}
+.goods2 .bx-wrapper .bx-prev{
+    background: url(/vendor/images/v30/share02.png) no-repeat -299px -370px;
+    left: -30px;
+}
+.goods2 .bx-wrapper .bx-next{
+    background: url(/vendor/images/v30/share02.png) no-repeat -338px -370px;
+    right: -30px;
+}
+.goods3{
+    overflow: hidden;
+    height: 372px;
+}
+.goods3 .goods3pic1,.goods3 .goods3pic2{
+    float: left;
+}
+.goods3 img{
+    border: 1px solid #ccc;
+}
+.goods3 .goods3pic1{
+	width:276px;
+    height: 189px;
+	margin-right:7px;
+}
+.goods3 .goods3pic2{
+    width: 276px;
+    height: 189px;
+}
+.promotiontitle img{
+    display: block;
+}
+.promotionbox .promotion1{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.promotion1 .promotion1pic,.promotion2 .promotion1pic{
+    float: left;
+}
+.promotion1pic img{
+    display: block;
+}
+.promotion1 .pro1pic1,.promotion2 .pro1pic1{
+    width: 610px;
+    height: 295px;
+}
+.promotion1 .pro1pic2,.promotion2 .pro1pic2{
+    width: 305px;
+    height: 295px;
+}
+.promotionbox .promotion2{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.promotionbox .promotion3{
+    overflow: hidden;
+}
+.promotion3 .proleft{
+    float: left;
+    overflow: hidden;
+    width: 610px;
+}
+.promotion3 .proright{
+    float: left;
+}
+.proleft .proleftpic{
+    float: left;
+    width: 203px;
+    height: 73px;
+}
+.proleft .proleftpic img{
+    display: block;
+}
+.proleftpic .proleftpicbox{
+    width: 192px;
+    height: 63px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.proleftpicbox .topline{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 0;
+    height: 1px;
+    background: #000;
+}
+.proleftpicbox .rightline{
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+    width: 1px;
+    height: 0;
+    background: #000;
+}
+.proleftpicbox .bottomline{
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    width: 0;
+    height: 1px;
+    background: #000;
+}
+.proleftpicbox .leftline{
+    position : absolute;
+    left: -1px;
+    top: -1px;
+    width: 1px;
+    height: 0;
+    background: #000;
+}
+/*新版 2015.11.17*/
+.darwin_3colum{
+    width: 398px;
+    display: inline-block;
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+}
+.darwin_3colum_one dl dd,.darwin_3colum_one dl dt{
+    width: 398px;
+    display: block;
+    height: 520px;
+    overflow: hidden;
+}
+.darwin_3colum_one dl dd{
+    width: 100%;
+}
+
+.darwin_3colum_one dl dt{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/vendor/images/v30/darwin_mask_bg.png);
+    display: none;
+}
+.darwin_3colum_one dl dt ul{
+    display: block;
+    width: 260px;
+    height: 120px;
+    padding-top: 20px;
+    margin: 190px auto;
+    font-size: 18px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.darwin_3colum_one dl dt ul li{
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+}
+.darwin_3colum_one dl dt ul li b{
+    display: block;
+    width: 18px;
+    height: 3px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+/*显示两个*/
+.darwin_3colum_two{
+    clear:both;
+    float: none;
+    padding-bottom: 10px;
+    position: relative;
+}
+.darwin_3colum_two dl dd,.darwin_3colum_two dl dt{
+    width: 398px;
+    display: block;
+    height: 256px;
+    overflow: hidden;
+}
+.darwin_3colum_two dl dd{
+    width: 100%;
+}
+
+.darwin_3colum_two dl dt{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/vendor/images/v30/darwin_mask_bg.png);
+    display: none;
+}
+.darwin_3colum_two dl dt ul{
+    display: block;
+    width: 260px;
+    height: 120px;
+    padding-top: 20px;
+    margin: 40px auto;
+    font-size: 18px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.darwin_3colum_two dl dt ul li{
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+}
+.darwin_3colum_two dl dt ul li b{
+    display: block;
+    width: 18px;
+    height: 3px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+._slider_bord{
+    width: 250px;
+    height: 90px;
+    position: absolute;
+    bottom: 10px;
+    left:50%;
+    margin-left: -125px;
+    background:url(/vendor/images/v30/darwin_mask_bgfff.png);
+    
+}
+._slider_bord dl{
+    padding-top: 5px;
+}
+._slider_bord dl dd{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+._slider_bord dl dt{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    line-height: 17px;
+}
+._slider_bord b{
+    width: 20px;
+    height: 2px;
+    display: block;
+    margin: 5px auto;
+    
+    background-color: #000;
+}
+.flashbuy2 ._slider_bord i{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background: url(/vendor/images/v30/share02.png) no-repeat -199px -377px!important;
+    
+}
+.goods2 a:hover,.flashbuy2 a:hover{
+    color: inherit;
+}
+.flashmask{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.flashmask dl{
+    height: 30px;
+    width: 100%;
+    background: url(/vendor/images/v30/darwin_mask_bg.png);
+    display: none;
+    display: block;
+}
+.flashmask dl dd i{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background: url(/vendor/images/v30/share02.png) no-repeat -199px -377px!important;
+}
+.flashmask dl dd{
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+.flashmask dl dd span{
+    color: #fff;
+}
+.darwin_3colum_one .topline{
+    width: 0;
+    height: 1px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    background: #000;
+}
+.darwin_3colum_one .rightline{
+    width: 1px;
+    height: 0;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    background: #000;
+}
+.darwin_3colum_one .bottomline{
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    background: #000;
+}
+.darwin_3colum_one .leftline{
+    width: 1px;
+    height: 0;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: #000;
+}
+
+
+
+.slider img {
+    border: none !important;
+    width: 90px !important;
+    height: auto !important;
+    margin-bottom: 12px !important;
+    margin-left: 12px !important;
+}
+
+.gonggao_box{
+        position:fixed;
+        z-index:5;
+        left: 0px;
+        bottom:20px;
+        width:185px;
+        height:264px;
+        overflow:hidden;
+}
+.gonggao_box a{
+        width:100%;
+        height:100%;
+        display:block;
+        background:url('http://img.5lux.com.cn/511/avatar/2015/12/30/14514397471498.png') no-repeat;
+}
+.gonggao_box span{
+        position:absolute;;
+        z-index:7;
+        right:30px;
+        top:0px;
+        width:20px;
+        height:20px;
+        cursor:pointer;
+		background:url('http://img.5lux.com.cn/511/avatar/2016/01/05/14519657022058.png') no-repeat;
+}

@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-7-22, 12:03:46
+    Author     : cyndi
+*/
+body {font:12px/200% 'microsoft yahei','微软雅黑',Helvetica,Arial,Tahoma,"黑体",'宋体',sans-serif;color:#000;-webkit-text-size-adjust:none;}
+table,tr,td,th{border:none;text-align:left;}
+table{border-collapse:collapse;}
+*{margin:0; padding:0;}
+ul,li{ list-style:none;}
+ul.nav a {zoom:1;} 
+h1, h2, h3, h4, h5, h6, p {margin:0;padding:0;}
+a img {border:none;}
+em{font-style:normal;}
+a:link {color:inherit;text-decoration:none;}
+a:visited {color:inherit;text-decoration:none;}
+a:hover{color: #b28247}
+a:active, a:focus {color:inherit;text-decoration:none;}
+.imgs{vertical-align: middle;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfloat {clear:both;height:0;width: 100%;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.blank_10{clear:both;height:10px;font-size:1px;line-height:0px;overflow: hidden;}
+.blank_15{clear:both;height:15px;font-size:1px;line-height:0px;overflow: hidden;}
+.blank_20{clear:both;height:15px;font-size:1px;line-height:0px;overflow: hidden;}
+.blank_25{clear:both;height:25px;font-size:1px;line-height:0px;overflow: hidden;}
+.blank_30{clear:both;height:30px;font-size:1px;line-height:0px;overflow: hidden;}
+.blank_40{clear:both;height:40px;font-size:1px;line-height:0px;overflow: hidden;}
+.blank_55{clear:both;height:55px;font-size:1px;line-height:0px;overflow: hidden;}
+.blank_60{clear:both;height:60px;font-size:1px;line-height:0px;overflow: hidden;}
+.blank_70{clear:both;height:70px;font-size:1px;line-height:0px;overflow: hidden;}
+.clearfix{display:inline-block;overflow:hidden;zoom:1;}
+.clearfix0327{overflow:hidden;zoom:1;}
+/*公用部分*/
+/*padding-margin*/
+.mleft6{margin-left: 6px;}
+.mleft10{margin-left:10px;}
+.mleft20{margin-right: 20px;}
+.mleft25{margin-left: 25px;}
+.mleft30{margin-left: 30px;}
+.mtop30{margin-top:30px; }
+.mtop20{margin-top:20px; }
+.mtop15{margin-top: 15px;}
+.mtop10{margin-top:10px;}
+.ptop30{padding-top:30px;}
+.ptop40{padding-top:40px;}
+.pleft20{padding-top:20px; }
+.pbott30{padding-bottom: 20px;}
+.ptb15{padding-top: 15px; padding-bottom: 15px;}
+
+/*行距*/
+.linh20{height:20px;line-height: 20px; vertical-align: middle;}
+.linh22{height:22px;line-height: 22px; vertical-align: middle;}
+.linh25{height:25px;line-height: 25px; vertical-align: middle;}
+.linh30{height:30px;line-height: 30px; vertical-align: middle;}
+.linh40{ height: 40px; line-height: 40px; vertical-align: middle;}
+.linh45{ height: 45px; line-height: 45px; vertical-align: middle;}
+/*虚线*/
+.xuxian{border-right: 1px dashed #9e9e9e; }
+.hide{display: none;}
+.bgwhite{ background-color: #ffffff;}
+.hbg{background-color: #e0e0e0;}
+.hyinying{
+    -webkit-box-shadow: #a7a7a7 0px 4px 10px;
+    -moz-box-shadow: #a7a7a7 0px 4px 10px;
+    box-shadow: #a7a7a7 0px 4px 10px;
+}
+.bg_e6e6e6{ width:100%; height:auto;background-color:#e6e6e6;}
+.bg_dfdfdf{ width:100%; height:auto;background-color:#dfdfdf;} 
+.bg_white{background: #fff;}
+.v30_mwrap{
+    margin: 0 auto;
+    width: 1230px;
+}
+.autocenter{
+    margin: 0 auto;
+}
+/*经典棕色*/
+.costrand{
+    color: #533f34;
+}
+.bg_d9d9d9{
+    background: #d9d9d9;
+}
+.cobfbfbf{
+    color: #bfbfbf;
+}
+/*价格*/
+.coc2a67d{
+    color: #c2a67d;
+}
+.codc0000{
+    color: #dc0000;
+}
+.cod00000{
+    color: #d00000;
+}
+/*weight*/
+.w700{
+    font-weight: 700;
+}
+.w500{
+    font-weight: 500;
+}
+.v30_bco{
+    background-color: #e6e6e6;
+}
+.clearboth{
+    clear: both;
+    float: none;
+    display: block;
+    width: 100%;
+    height: 1px;
+}
+.bg_trans{
+    background: url(/vendor/images/v30/bg_tranparent.png);
+}
+/*新按钮*/
+.v30_btred{
+    background: #d00000;
+    display: inline-block;
+    line-height: 25px;
+    height: 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 11px;
+    padding-right: 12px;
+}
+/*收藏气泡样式*/
+.altermess{
+    background: #d65c1e;
+    border-radius: 8px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+}
+.shadow01{
+    box-shadow: 0 0 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.2);
+}
+.fsize14{
+    font-size: 14px;
+}

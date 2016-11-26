@@ -1,0 +1,125 @@
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+*{padding:0; margin:0; }
+body, div, label, dl, dt, dd, ul, ol, li, pre, code, form, p, blockquote, th, td, img,a img{
+	border: none;
+	outline: 0;
+	list-style:none;}
+
+.fleft{float:left;}
+.fright{float:right;}
+.tcenter{text-align:center;}
+.tleft{text-align:left;}
+.tright{text-align:right;}
+.mcenter{width:100px;margin:0 auto;}
+.mtop7{margin-top:7px;}
+.mtop15{margin-top:15px;}
+.mtop17{margin-top:17px;}
+.mtop20{margin-top:20px;}
+.mtop23{margin-top:23px;}
+.mtop09{margin-top:-10px;}
+.mtop30{margin-top:30px;}
+.mleft25{margin-left:25px;}
+.mleft77{margin-left:77px;}
+.mleft80{margin-left:80px;}
+.mleft170{margin-left:170px;}
+.mright40{margin-right:40px;
+}
+.fsize12{font-size:12px;}
+.fsize13{font-size:13px;}
+.fsize14{font-size:14px;}
+.fsize16{font-size:16px;}
+.fsize18{font-size:18px;}
+.fsize24{font-size:24px;}
+.fsize30{font-size:30px;}
+.fbold{font-weight:bold;}
+.lineh34{line-height:34px;}
+.lineh10{line-height:10px;}
+.lineh15{line-height:15px;height:15px;}
+.lineh20{line-height:20px;}
+.lineh24{line-height:24px;}
+.lineh25{line-height:25px;}
+.lineh30{line-height:30px;}
+.lineh40{line-height:40px;}
+.lineh70{line-height:70px;}
+
+/*正文部分*/
+
+#ss_newcomment_con{width:805px; overflow:hidden;}
+.ss_newcomment_red{color: #c30b0b;}
+.ss_newcomment_hui{color: #a0a0a0;}
+.ss_newcomment_mleft40{margin-left:40px;}
+.ss_newcomment_mleft48{margin-left:48px;}
+
+/**最新评论，好评，中评，差评切换标签样式**/
+.tab_text_comment{width:802x;  overflow:hidden; }
+ul.tab_text_comment{ border-bottom: 2px solid #000; background: #fff;}
+ul.tab_text_comment li{width:105px;text-align:center; height:30px;line-height:30px; cursor:pointer; border:1px solid #6A6D69; margin-left: 2px; background: #fff; float:left;}
+.tab_text_comment li span{color:#000; font-size:12px;}
+.tab_text_comment li.tab_noborder{margin-left: 0px;}
+.tab_1{border:1px solid green;}
+.tab_text_comment li.check{ background: #000;}
+.tab_text_comment li.check span { color:#fff;}
+
+
+/*商品*/
+.ss_newcomment_main{width:805x; overflow:hidden; background:url(/vendor/images/comment.jpg) no-repeat;height:213px;}
+.ss_newcomment_left{width:173px;}
+.ss_newcomment_left .ss_newcomment_main_top{ height:115px;}
+.ss_newcomment_left .ss_newcomment_main_text{ text-align:center;}
+.ss_newcomment_main_text p{ height:23px; }
+.ss_newcomment_right{width:610px;}
+
+
+
+
+
+/*外观、舒适、色差*/
+.ss_newcomment_star{margin-top:16px;}
+.ss_newcomment_star ul{ overflow:hidden;width:100%;}
+.ss_newcomment_star ul li{width:200px; float:left; font-size:12px; height:22px; line-height:22px;}
+/*.ss_newcomment_star ul li .ss_newcomment_s{ display:inline-table;width:86px;height:16px; background:url("/vendor/images/star.jpg") no-repeat; }
+.ss_newcomment_star ul li span.ss_newcomment_s{ display:block; float:left;width:86px;height:16px; background:url(../images/comment_5star.jpg) no-repeat;  float:left;}*/
+.ss_newcomment_star ul li span.ss_newcomment_s5{display:block;width:108px;height:16px; background: url("/vendor/images/star.jpg") no-repeat; background-position:0px -5px;float:left;}
+.ss_newcomment_star ul li span.ss_newcomment_s4{display:block;width:108px;height:16px; background: url("/vendor/images/star.jpg") no-repeat; background-position:0px -25px;float:left;}
+.ss_newcomment_star ul li span.ss_newcomment_s3{display:block;width:108px;height:16px; background: url("/vendor/images/star.jpg") no-repeat; background-position:0px -45px;float:left;}
+.ss_newcomment_star ul li span.ss_newcomment_s2{display:block;width:108px;height:16px; background: url("/vendor/images/star.jpg") no-repeat; background-position:0px -66px;float:left;}
+.ss_newcomment_star ul li span.ss_newcomment_s1{display:block;width:108px;height:16px; background: url("/vendor/images/star.jpg") no-repeat; background-position:0px -85px;float:left;}
+.ss_newcomment_star ul li span.ss_newcomment_s0{display:block;width:108px;height:16px; background: url("/vendor/images/star.jpg") no-repeat; background-position:0px -103px;float:left;}
+
+.ss_newcomment_star ul li span.ss_newcomment_tex{display:block;float:left;margin-right:5px;}
+
+
+/*颜色、尺码*/
+.ss_newcomment_content{width:100%; margin-top:25px;}
+.ss_newcomment_content ul li{width:565px;font-size:12px; height:28px; line-height:16px;}
+/*评论时间white-space:nowrap;*/
+.ss_newcomment_time{width:565px;text-align:right;font-size:12px; padding-top:18px;}
+
+
+
+/*************conment_top.html*******************/
+.good_comment_con{width:805px; overflow:hidden;}
+.good_comment_main{width:800px;border:1px solid #d5d5d5; overflow:hidden; background-color:#f4f4f4; }
+.good_comment_top{height:30px; line-height:30px; vertical-align:middle;border-bottom:1px solid #d5d5d5;}
+.good_comment_top p{margin-left:10px;}
+.good_comment_content{width:100%; overflow:hidden;}
+.good_comment_left{width:235px;border-right:1px solid #d5d5d5; height:115px;}
+.good_comment_center{width:444px;border-right:1px solid #d5d5d5; text-align:center; height:115px;}
+.good_comment_right{width:114px;  }
+.good_comment_left ul {margin-left:10px;padding-top:3px; width:225px;}
+.good_comment_left ul li{width:225px; height:35px; line-height:35px; vertical-align:middle; overflow:hidden; font-size:12px;}
+/*.good_comment_left ul li .good_comment_bgh{ display:inline-table; position:relative;top:3px;width:150px;height:13px;border:1px solid #585858;}*/
+.good_comment_left ul li p{margin-left:5px;display:inherit;width:30px; }
+.good_comment_bgh{ width:145px;height:13px;border:1px solid #585858; overflow:hidden; margin-top:10px; display:inherit;}
+.good_comment_bgh div {background: #ff7300;height: 13px; overflow: hidden;width: 0;}
+/*.good_comment_left ul li span{font-size:12px;}*/
+.good_comment_center ul{margin-top:30px;}
+.good_comment_center ul li{ height:30px;}
+.good_comment_center ul li span{font-size:12px;}
+
+.good_comment_right ul{ text-align:center;width:100px;margin-top:25px;margin-left:3px;}
+.good_comment_right ul li{height:30px; line-height:30px; vertical-align:middle; }
+.good_comment_btn {width:80px; height:25px; border:0px; background:url(/vendor/images/let_comment.png)}

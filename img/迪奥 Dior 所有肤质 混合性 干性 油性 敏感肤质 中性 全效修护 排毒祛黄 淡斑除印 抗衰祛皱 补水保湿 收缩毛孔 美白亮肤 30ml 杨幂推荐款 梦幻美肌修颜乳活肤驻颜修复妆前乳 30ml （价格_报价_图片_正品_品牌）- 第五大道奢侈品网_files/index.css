@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-8-13, 13:54:31
+    Author     : cyndi
+*/
+.v30_cata_adbox{
+    background: #f2f2f2;
+    width: 1210px;
+    height: 200px;
+    position: relative;
+}
+.vca_01{
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 44px;
+    height: 84px;
+    display: block;
+    background: url(/vendor/images/v30/brandstore_share.png) no-repeat -440px -218px;
+}
+.vca_02{
+    position: absolute;
+    left: 956px;
+    top: 0;
+    width: 44px;
+    height: 84px;
+    display: block;
+    background: url(/vendor/images/v30/brandstore_share.png) no-repeat -440px -318px;
+}
+.vca_03{
+    position: absolute;
+    left: 78px;
+    top: 15px;
+    width: 876px;
+    height: 175px;
+    overflow: hidden;
+}
+.vca_03 ul li{
+    display: inline-block;
+    float: left;
+    width: 292px;
+}
+.vca_03 ul li img{
+    width: 280px;
+    margin: 0 auto;
+}
+.vca_04{
+    position: absolute;
+    left: 1019px;
+    top: 15px;
+    width: 170px;
+    height: 175px;
+    overflow: hidden;
+    text-align: center;
+}
+.vca_04 img{
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.f_right {
+    float: right;
+    line-height: 27px;
+    vertical-align: middle;
+    padding-right: 20px;
+    color: #666;
+    font-size: 13px;
+}
+

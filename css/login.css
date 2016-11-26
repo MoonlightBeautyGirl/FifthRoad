@@ -1,0 +1,188 @@
+body{
+	font: 12px/200% 'microsoft yahei','微软雅黑',Helvetica,Arial,Tahoma,"黑体",'宋体',sans-serif;
+	color: #000;
+}
+/*头部*/
+#login-top{
+	width:100%;
+	height: 100px;
+	background: #ffffff;
+	overflow: hidden;
+}
+.top-content{
+	width: 1000px;
+	margin:10px auto 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+#login-top .top-logo{
+	height:82px;
+}
+#login-top .top-logo a{
+	float:left;
+}
+a img{
+	border:none;
+	float: left;
+}
+.login-toplogo-title{
+	float: left;
+	font-size: 18px;
+	color:#949292;
+	padding-left:10px;
+	font-family: Helvetica,黑体;
+	line-height: 82px;
+}
+.top-phone{
+	position: absolute;	
+	height:27px;
+	line-height: 27px;
+	font-family: Helvetica,黑体;
+	color:#000;
+	right:0;
+	bottom:0;
+}
+.top-phone img{
+	border:none;
+	/*vertical-align: center;*/
+	float: right;
+	display: block;
+}
+.top-phone span{
+	display: inline-block;
+	font-size: 15px;
+	line-height: 27px;
+	height:27px;
+	float: right;
+}
+/*中部*/
+#login-banner{
+	width:100%;
+	height:568px;
+	overflow: hidden;
+	border-bottom:1px solid #C9C9C9; 
+	background:transparent url(../img/bai-bg.jpg) no-repeat center;
+}
+#login-banner .banner-content{
+	width:1000px;
+	height:680px;
+	margin:0 auto;
+	position: relative;
+}
+.banner-content .banner-left{
+	width:705px;
+	height:680px;
+	position: absolute;
+	z-index: 5;
+	top:0;
+	left:-140px;
+	background:transparent url(../img/baijin-icon.png) no-repeat center;
+}
+.banner-content .banner-right{
+	width:450px;
+	background: #fff;
+	float:right;
+	margin:47px 0 0 10px;
+	-webkit-box-shadow: #afabab 0px 0px 8px;
+	-moz-box-shadow: #afabab 0px 0px 8px;
+	box-shadow: #afabab 0px 0px 8px; 
+}
+.banner-right-list{
+	width:300px;
+	margin:45px auto;
+	text-align: left;
+}
+.banner-right ul{
+	/*display: block;*/
+	position: relative;
+}
+.banner-right .login-con-title{
+	/*width:100%;*/
+	padding-bottom:12px;
+	/*text-align: left;*/
+	/*overflow: hidden;*/
+	color: #6d6d6d;
+	font-size: 15px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 32px;
+}
+.log-info{
+	height: 64px;
+	padding-left: 25px;
+	*padding-left:0;
+}
+.username{
+	width:212px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	background: url(../img/login_reg_input_user_bg.jpg) no-repeat left center;
+	padding-left: 37px;
+}
+.user-psw{
+	width:212px;
+	height: 30px;
+	line-height: 30px;
+	border:1px solid #ccc;
+	background:url(../img/login_reg_input_pw_bg.jpg) no-repeat left center;
+	padding-left:37px;
+}
+.agree{
+	padding-left: 25px;
+	margin:5px 0 10px 0;
+	overflow: hidden;
+}
+#remember{
+	float:left;
+	margin:5px 5px 0 0;
+}
+.agree span{
+	float:left;
+}
+.banner-right a{
+	float:right;
+	margin-right: 26px;
+	text-decoration: underline;
+	color:#a78668;
+}
+.login-btn{
+	display: block;
+	width:250px;
+	margin:20px auto;
+	height:30px;
+	line-height: 30px;
+	color:#fff;
+	font-size: 16px;
+	border:0;
+	cursor:pointer;
+	overflow: hidden;
+	background: #cf0101;
+}
+
+.log-register{
+	overflow: hidden;
+	padding-bottom:20px;
+	border-bottom: 1px solid #ccc;
+}
+.log-register a{
+	margin-right: 25px;
+	float: right;
+}
+.log-register span{
+	margin-right:14px;
+	float: right;
+}
+.log-tip{
+	padding:20px 0 0 25px;
+	overflow: hidden;
+}
+
+.log-tip a{
+	margin:2px 4px 0 0;
+	float: left;
+}
+.remain-bottom-center .img2{
+	position: absolute;
+	right: 240px;
+	bottom:0;
+}
